@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Yantramanav-Regular";
+  src: url(font/Yantramanav-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Yantramanav-Light";
+  src: url(font/Yantramanav-Light.ttf);
+}
+
+
+table,
+* {
+  font-family: "Yantramanav-Regular";
+  padding: 0;
+  margin: 0;
+}
+
+table,
+th,
+td {
+  padding: 15px 10px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+  color: #949494;
+}
+
+p {
+  color: #949494;
+}
+
+p.price {
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: "Yantramanav-Light";
+  color: #19aed7;
+}
+
+p span {
+  font-size: 30px;
+  font-family: "Yantramanav-Light";
+  color: black;
+}
+
+.sub {
+  font-size: smaller;
+  color: #19aed7;
+}
+
+thead tr th {
+  font-weight: normal;
+}
+
+thead tr th div {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: inherit;
+  width: inherit;
+  background-color: #f3f3f3;
+}
+
+thead tr th div h3 {
+  font-family: "Yantramanav-Light";
+  margin: 10px;
+  font-size: 25px;
+  color: #666666;
+}
+
+table tbody tr:nth-child(2n) {
+  background-color: rgba(243, 243, 243);
+  z-index: -1;
+}
+
+tr td b {
+  font-weight: 900;
+  color: #666666;
+}
+
+thead tr th div p.price {
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+thead tr th div p.price span {
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+thead tr th div p {
+  font-size: 15px;
+}
+
+thead tr th div p:last-child {
+  font-size: 18px;
+}
+
+thead tr th div p.price span.sub,
+tfoot tr td div p.price span.sub {
+  font-size: 20px;
+}
+
+table tfoot button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: #fff;
+}
+
+table tfoot button:hover {
+  background-color: #19aed7;
+  color: #fff;
+}
+
+table colgroup col:nth-child(4) {
+  background-color: rgb(25, 174, 215);
+}
+
+table thead tr th:nth-child(4) div {
+  background-color: #19aed7;
+}
+
+table thead tr th:nth-child(4) div h3,
+table thead tr th:nth-child(4) div p,
+table thead tr th:nth-child(4) div p span {
+  color: #fff;
+}
+
+table tfoot tr td:nth-child(4) div h3,
+table tfoot tr td:nth-child(4) div p,
+table tfoot tr td:nth-child(4) div p span,
+table tbody tr td:nth-child(4),
+table tbody tr td:nth-child(4) b {
+  color: #fff;
+  border: #19aed7;
+  background-color: #19aed7;
+}
+
+table tfoot tr td div {
+  padding-top: 10px;
+}
+
+table {
+  margin: auto;
+}
